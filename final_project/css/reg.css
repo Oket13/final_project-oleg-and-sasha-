@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 440px;
+  background-color: #bae7ff; }
+  .reg .reg__container {
+    width: 1200px; }
+    .reg .reg__container .reg__grid {
+      display: flex;
+      justify-content: space-between; }
+      .reg .reg__container .reg__grid .reg__grid__item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 240px;
+        height: 300px;
+        transition-duration: 0.5s;
+        border-radius: 25px; }
+        .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
+          margin: 0 auto;
+          width: 124px;
+          height: 124px;
+          padding: 32px;
+          border-radius: 50%;
+          margin-bottom: 15px;
+          transition-duration: 0.5s;
+          padding: 40px; }
+          .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a {
+            text-decoration: none;
+            color: white; }
+        .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow {
+          background-color: #f0aa00; }
+        .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple {
+          background-color: #4a1a7d; }
+        .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green {
+          background-color: #04ab35; }
+        .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
+          background-color: #1293da; }
+        .reg .reg__container .reg__grid .reg__grid__item a {
+          text-decoration: none;
+          color: black; }
+          .reg .reg__container .reg__grid .reg__grid__item a p {
+            text-align: center;
+            font-size: 23px;
+            font-family: "Kurale", serif; }
+        .reg .reg__container .reg__grid .reg__grid__item:hover {
+          background-color: white; }
+
+/*# sourceMappingURL=reg.css.map */

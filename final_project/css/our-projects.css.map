@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,CAAE;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU",
+"sources": ["../scss/our-projects.scss"],
+"names": [],
+"file": "our-projects.css"
+}

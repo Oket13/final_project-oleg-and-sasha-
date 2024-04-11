@@ -1,0 +1,80 @@
+$roboto-font: "Roboto", sans-serif;
+$color-white: white;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $roboto-font;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    background-color: #4a1a7d;
+    .header__container {
+        width: 1200px;
+        .header__flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .header__flex__item {
+                display: flex;
+                justify-content: center;
+                .first__item {
+                    display: flex;
+                    justify-content: center;
+                    color: $color-white;
+                    margin-right: 30px;
+                    a{
+                        display: flex;
+                        justify-content: center;
+                        text-decoration: none;
+                        color: $color-white;
+                        transition-duration: 0.5s;
+                        .icon-location, .icon-phone, .icon-mail{
+                            margin-right: 5px;
+                        }
+                        &:hover{
+                            color: yellow;
+                        }
+                    }
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+                .second__item {
+                    margin-right: 10px;
+                    color: $color-white;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        .icon-facebook-squared, .icon-instagram, .icon-youtube-play{
+                            font-size: 25px;
+                            transition-duration: 0.5s;
+                        }
+                        &:hover{
+                            color: yellow;
+                        }
+                    }
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
