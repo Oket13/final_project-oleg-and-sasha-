@@ -10,7 +10,7 @@
   height: 440px;
   background-color: #bae7ff; }
   .reg .reg__container {
-    width: 1200px; }
+    width: 1230px; }
     .reg .reg__container .reg__grid {
       display: flex;
       justify-content: space-between; }
@@ -18,11 +18,12 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 240px;
-        height: 300px;
+        width: 290px;
+        height: 290px;
         transition-duration: 0.5s;
         border-radius: 25px; }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
+          cursor: pointer;
           margin: 0 auto;
           width: 124px;
           height: 124px;
@@ -30,10 +31,16 @@
           border-radius: 50%;
           margin-bottom: 15px;
           transition-duration: 0.5s;
-          padding: 40px; }
+          padding: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
           .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a {
             text-decoration: none;
             color: white; }
+            .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a svg {
+              width: 60px;
+              height: 60px; }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow {
           background-color: #f0aa00; }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple {
@@ -50,6 +57,9 @@
             font-size: 23px;
             font-family: "Kurale", serif; }
         .reg .reg__container .reg__grid .reg__grid__item:hover {
-          background-color: white; }
+          background-color: white;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+          .reg .reg__container .reg__grid .reg__grid__item:hover .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item:hover .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item:hover .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item:hover .reg__foto__blue {
+            transform: translate(0, -10px); }
 
 /*# sourceMappingURL=reg.css.map */

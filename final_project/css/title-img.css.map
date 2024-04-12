@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,CAAC;EACG,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;;AAG1B,UAAU;EACN,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;EAGrB,yBAAG;IAEC,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,KAAK",
+"sources": ["../scss/title-img.scss"],
 "names": [],
 "file": "title-img.css"
 }
