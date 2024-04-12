@@ -44,7 +44,8 @@ header {
             color: white; }
             header .header__container .header__flex .header__flex__item .second__item a .icon-facebook-squared, header .header__container .header__flex .header__flex__item .second__item a .icon-instagram, header .header__container .header__flex .header__flex__item .second__item a .icon-youtube-play {
               font-size: 25px;
-              transition-duration: 0.5s; }
+              transition-duration: 0.5s;
+              margin-right: 5px; }
             header .header__container .header__flex .header__flex__item .second__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {

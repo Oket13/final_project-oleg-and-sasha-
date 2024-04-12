@@ -1,3 +1,55 @@
-
+.our-values__section {
+  display: flex;
+  justify-content: center;
+  height: 563px;
+  background-color: #5f5af0;
+  margin-bottom: 200px;
+  align-items: center; }
+  .our-values__section .our-values__container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .our-values__section .our-values__container .our-values__flex {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .our-values__section .our-values__container .our-values__flex .our-values__flex__item {
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 70px; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__title h2 {
+          font-size: 36px;
+          font-family: "Quicksand", sans-serif;
+          color: white;
+          margin-bottom: 50px;
+          margin-left: 10px; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container {
+          width: 700px;
+          display: flex;
+          justify-content: space-between; }
+          .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text {
+              display: flex; }
+              .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text svg {
+                width: 45px;
+                height: 45px;
+                margin: 5px 20px; }
+              .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text p {
+                margin-top: 10px;
+                font-size: 28px;
+                font-family: "Roboto", sans-serif;
+                color: white;
+                font-weight: 300; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__img img {
+          height: 445px;
+          width: 445px; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item:last-child {
+          margin-bottom: 0; }
 
 /*# sourceMappingURL=our-values.css.map */

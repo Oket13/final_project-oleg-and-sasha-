@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kurale&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -48,7 +49,8 @@ header {
             color: white; }
             header .header__container .header__flex .header__flex__item .second__item a .icon-facebook-squared, header .header__container .header__flex .header__flex__item .second__item a .icon-instagram, header .header__container .header__flex .header__flex__item .second__item a .icon-youtube-play {
               font-size: 25px;
-              transition-duration: 0.5s; }
+              transition-duration: 0.5s;
+              margin-right: 5px; }
             header .header__container .header__flex .header__flex__item .second__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {
@@ -58,6 +60,167 @@ header {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+.our-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px; }
+  .our-projects .our-projects__container .our-project__flex__line {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px; }
+    .our-projects .our-projects__container .our-project__flex__line h1 {
+      margin-top: 100px;
+      text-align: center;
+      font-family: "Quicksand", sans-serif;
+      font-size: 46px; }
+    .our-projects .our-projects__container .our-project__flex__line .our-project__line {
+      margin-top: 30px;
+      margin-bottom: 80px;
+      width: 180px;
+      background-color: #4a1a7d;
+      height: 1px; }
+  .our-projects .our-projects__container .out-projects__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px; }
+    .our-projects .our-projects__container .out-projects__flex .our-project__flex__item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 360px;
+      height: 500px;
+      transition-duration: 0.5s;
+      background-image: linear-gradient(180deg, #bce6f8 0%, rgba(255, 255, 255, 0) 40%);
+      border-style: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #def5ff;
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05) inset;
+      border-radius: 20px; }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 26px;
+        font-family: "Open Sans", sans-serif; }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item svg {
+        margin-top: 20px;
+        height: 105px;
+        width: 105px;
+        margin: 0 auto;
+        margin-bottom: 25px; }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item p {
+        text-align: center;
+        font-weight: 400;
+        line-height: 2;
+        height: 80px;
+        color: #7a7a7a; }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a {
+        text-decoration: none; }
+        .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__blue, .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__yellow, .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__purple {
+          font-family: "Quicksand", sans-serif;
+          margin-top: 30px;
+          color: #64c8ff;
+          text-align: center;
+          font-weight: bold; }
+        .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__purple {
+          color: #4a1a7d; }
+        .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__yellow {
+          color: #f0aa00; }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item:hover {
+        transform: translate(0, -20px); }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item:first-child:hover {
+        background-image: linear-gradient(180deg, #c4e5f3 0%, rgba(255, 255, 255, 0) 40%); }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item:nth-child(2) {
+        border-color: #fff4dc;
+        background-image: linear-gradient(180deg, #f4e5c4 0%, rgba(255, 255, 255, 0) 40%); }
+        .our-projects .our-projects__container .out-projects__flex .our-project__flex__item:nth-child(2):hover {
+          background-image: linear-gradient(180deg, #ebddbe 0%, rgba(255, 255, 255, 0) 40%); }
+      .our-projects .our-projects__container .out-projects__flex .our-project__flex__item:last-child {
+        border-color: #f2e8ff;
+        background-image: linear-gradient(180deg, #decbf8 0%, rgba(255, 255, 255, 0) 40%); }
+        .our-projects .our-projects__container .out-projects__flex .our-project__flex__item:last-child:hover {
+          background-image: linear-gradient(180deg, #ddc5fc 0%, rgba(255, 255, 255, 0) 40%); }
+  .our-projects .our-projects__container .our-project__flex__button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .our-projects .our-projects__container .our-project__flex__button .purple__cirlce {
+      background-color: #4a1a7d;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin: 0 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-duration: 0.5s; }
+      .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-left-open, .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-right-open {
+        font-size: 24px;
+        color: white;
+        margin: 0 auto; }
+      .our-projects .our-projects__container .our-project__flex__button .purple__cirlce:hover {
+        cursor: pointer;
+        background-color: #5d2896; }
+
+.our-values__section {
+  display: flex;
+  justify-content: center;
+  height: 563px;
+  background-color: #5f5af0;
+  margin-bottom: 200px;
+  align-items: center; }
+  .our-values__section .our-values__container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .our-values__section .our-values__container .our-values__flex {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .our-values__section .our-values__container .our-values__flex .our-values__flex__item {
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 70px; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__title h2 {
+          font-size: 36px;
+          font-family: "Quicksand", sans-serif;
+          color: white;
+          margin-bottom: 50px;
+          margin-left: 10px; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container {
+          width: 700px;
+          display: flex;
+          justify-content: space-between; }
+          .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text {
+              display: flex; }
+              .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text svg {
+                width: 45px;
+                height: 45px;
+                margin: 5px 20px; }
+              .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text p {
+                margin-top: 10px;
+                font-size: 28px;
+                font-family: "Roboto", sans-serif;
+                color: white;
+                font-weight: 300; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__img img {
+          height: 445px;
+          width: 445px; }
+        .our-values__section .our-values__container .our-values__flex .our-values__flex__item:last-child {
+          margin-bottom: 0; }
 
 * {
   padding: 0;
@@ -116,7 +279,8 @@ header {
           .reg .reg__container .reg__grid .reg__grid__item a p {
             text-align: center;
             font-size: 23px;
-            font-family: "Kurale", serif; }
+            font-family: "Kurale", serif;
+            margin-bottom: 25px; }
         .reg .reg__container .reg__grid .reg__grid__item:hover {
           background-color: white;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
@@ -128,11 +292,102 @@ header {
   margin: 0;
   box-sizing: border-box; }
 
-.title-img {
-  height: 800px;
-  background-color: #bae7ff; }
-  .title-img .container img {
-    width: 100%;
-    height: 800px; }
+.title-img__section {
+  background-image: url(../img/title-img.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center; }
+  .title-img__section .title-img__container {
+    height: 800px;
+    width: 1200px; }
+    .title-img__section .title-img__container .title-img__flex {
+      margin-top: 135px;
+      display: flex;
+      justify-content: flex-end; }
+      .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 h2 {
+        font-family: "Kurale", serif;
+        font-size: 66px;
+        font-weight: 400;
+        margin-bottom: 15px; }
+      .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container {
+        width: 605px;
+        height: 217px;
+        margin-left: 70px; }
+        .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item {
+          display: flex;
+          flex-direction: row; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item i {
+            font-size: 26px;
+            margin-right: 5px; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item p {
+            font-family: "Kurale", serif;
+            font-size: 20px; }
+        .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button {
+          align-self: center;
+          display: flex;
+          justify-content: center; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button {
+            margin-top: 20px;
+            background-color: #4a1a7d;
+            border-radius: 50px;
+            height: 50px;
+            width: 188px;
+            font-size: 20px;
+            transition-duration: 0.3s; }
+            .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button a {
+              text-decoration: none; }
+            .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button p {
+              color: white;
+              padding: 10px;
+              font-family: "Kurale", serif;
+              text-align: center;
+              margin: 0 auto; }
+            .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button:hover {
+              background-color: black; }
+      .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container {
+        margin-top: 275px;
+        margin-left: 100px; }
+        .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container i {
+          color: #4a1a7d;
+          transition-duration: 0.4s; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container i:hover {
+            color: black;
+            cursor: pointer; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.header-menu__section {
+  height: 135px;
+  display: flex;
+  justify-content: center; }
+  .header-menu__section .header-menu__container {
+    width: 1230px; }
+    .header-menu__section .header-menu__container .header-menu__flex {
+      height: 135px;
+      display: flex;
+      align-items: center; }
+      .header-menu__section .header-menu__container .header-menu__flex .header-menu__flex__item img {
+        width: 114px;
+        margin-right: 30px; }
+      .header-menu__section .header-menu__container .header-menu__flex .header-menu__flex__item .header-menu__menu ul {
+        width: 1116px;
+        display: flex;
+        justify-content: center;
+        list-style-type: none; }
+        .header-menu__section .header-menu__container .header-menu__flex .header-menu__flex__item .header-menu__menu ul li a {
+          padding: 25px 5px;
+          margin-right: 15px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 600;
+          text-decoration: none;
+          color: #4a1a7d;
+          text-align: center; }
+          .header-menu__section .header-menu__container .header-menu__flex .header-menu__flex__item .header-menu__menu ul li a:hover {
+            border-bottom: 4px solid #4a1a7d; }
+        .header-menu__section .header-menu__container .header-menu__flex .header-menu__flex__item .header-menu__menu ul li:last-child {
+          margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */

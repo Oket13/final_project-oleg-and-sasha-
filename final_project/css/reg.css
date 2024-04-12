@@ -55,7 +55,8 @@
           .reg .reg__container .reg__grid .reg__grid__item a p {
             text-align: center;
             font-size: 23px;
-            font-family: "Kurale", serif; }
+            font-family: "Kurale", serif;
+            margin-bottom: 25px; }
         .reg .reg__container .reg__grid .reg__grid__item:hover {
           background-color: white;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }

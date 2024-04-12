@@ -3,11 +3,66 @@
   margin: 0;
   box-sizing: border-box; }
 
-.title-img {
-  height: 800px;
-  background-color: #bae7ff; }
-  .title-img .container img {
-    width: 100%;
-    height: 800px; }
+.title-img__section {
+  background-image: url(../img/title-img.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center; }
+  .title-img__section .title-img__container {
+    height: 800px;
+    width: 1200px; }
+    .title-img__section .title-img__container .title-img__flex {
+      margin-top: 135px;
+      display: flex;
+      justify-content: flex-end; }
+      .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 h2 {
+        font-family: "Kurale", serif;
+        font-size: 66px;
+        font-weight: 400;
+        margin-bottom: 15px; }
+      .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container {
+        width: 605px;
+        height: 217px;
+        margin-left: 70px; }
+        .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item {
+          display: flex;
+          flex-direction: row; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item i {
+            font-size: 26px;
+            margin-right: 5px; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item p {
+            font-family: "Kurale", serif;
+            font-size: 20px; }
+        .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button {
+          align-self: center;
+          display: flex;
+          justify-content: center; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button {
+            margin-top: 20px;
+            background-color: #4a1a7d;
+            border-radius: 50px;
+            height: 50px;
+            width: 188px;
+            font-size: 20px;
+            transition-duration: 0.3s; }
+            .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button a {
+              text-decoration: none; }
+            .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button p {
+              color: white;
+              padding: 10px;
+              font-family: "Kurale", serif;
+              text-align: center;
+              margin: 0 auto; }
+            .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button:hover {
+              background-color: black; }
+      .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container {
+        margin-top: 275px;
+        margin-left: 100px; }
+        .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container i {
+          color: #4a1a7d;
+          transition-duration: 0.4s; }
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container i:hover {
+            color: black;
+            cursor: pointer; }
 
 /*# sourceMappingURL=title-img.css.map */

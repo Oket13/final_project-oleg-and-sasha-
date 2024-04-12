@@ -1,18 +1,106 @@
-*{
+$kurale-font: "Kurale", serif;
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
-.title-img{
-    height: 800px;
-    background-color: #bae7ff;
-    .container{
 
-        img{
-            
-            width: 100%;
-            height: 800px;
+.title-img__section {
+
+    background-image: url(../img/title-img.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    .title-img__container {
+        height: 800px;
+        width: 1200px;
+
+        .title-img__flex {
+            margin-top: 135px;
+            display: flex;
+            justify-content: flex-end;
+            .title-img__flex__item2 {
+                h2 {
+                    font-family: $kurale-font;
+                    font-size: 66px;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                }
+
+                .title-img__text__container {
+                    width: 605px;
+                    height: 217px;
+                    margin-left: 70px;
+
+                    .title-img__text__item {
+                        display: flex;
+                        flex-direction: row;
+
+                        i {
+                            font-size: 26px;
+                            margin-right: 5px;
+                        }
+
+                        p {
+                            font-family: $kurale-font;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .title-img__flex__button {
+                        align-self: center;
+                        display: flex;
+                        justify-content: center;
+
+                        .title__img__button {
+                            margin-top: 20px;
+                            background-color: #4a1a7d;
+                            border-radius: 50px;
+                            height: 50px;
+                            width: 188px;
+                            font-size: 20px;
+                            transition-duration: 0.3s;
+
+                            a {
+                                text-decoration: none;
+                            }
+
+                            p {
+                                color: white;
+                                padding: 10px;
+                                font-family: $kurale-font;
+                                text-align: center;
+                                margin: 0 auto;
+                            }
+
+                            &:hover {
+                                background-color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .title-img__flex__slider {
+
+                .title-img__flex__slider__container{
+                    margin-top: 275px;
+                    margin-left: 100px;
+                    
+                    i {
+                        color: #4a1a7d;
+                        transition-duration: 0.4s;
+                        &:hover{
+                            color: black;
+                            cursor: pointer;
+                            
+                        }
+                    }
+                }
+            }
         }
     }
 }
