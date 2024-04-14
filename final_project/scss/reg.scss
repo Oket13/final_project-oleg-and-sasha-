@@ -1,0 +1,83 @@
+$Kurale-font: "Kurale", serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    background-color: #bae7ff;
+    .reg__container {
+        width: 1230px;
+        .reg__grid {
+            display: flex;
+            justify-content: space-between;
+            .reg__grid__item {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 290px;
+                height: 290px;
+                transition-duration: 0.5s;
+                border-radius: 25px;    
+                .reg__foto__yellow,.reg__foto__purple, .reg__foto__green,.reg__foto__blue{
+                    cursor: pointer;
+                    margin: 0 auto;
+                    width: 124px;
+                    height: 124px;
+                    padding: 32px;
+                    border-radius: 50%;
+                    margin-bottom: 15px;
+                    transition-duration: 0.5s;
+                    padding: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        svg{
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                }
+                .reg__foto__yellow{
+                    background-color: #f0aa00;
+                }
+                .reg__foto__purple{
+                    background-color: #4a1a7d;
+                }
+                .reg__foto__green{
+                    background-color: #04ab35;
+                }
+                .reg__foto__blue{
+                    background-color: #1293da;
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    p {
+                        text-align: center;
+                        font-size: 23px;
+                        font-family: $Kurale-font; 
+                        margin-bottom: 25px;
+                    }
+                }
+                &:hover{
+                    background-color: white;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    .reg__foto__green, .reg__foto__yellow, .reg__foto__purple, .reg__foto__blue{
+                        transform: translate(0, -10px);
+
+                    }  
+                }  
+            }
+        }
+    }
+}

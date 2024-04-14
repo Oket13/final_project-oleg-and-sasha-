@@ -1,0 +1,84 @@
+// background-color: #5f5af0;
+
+$roboto-font: "Roboto", sans-serif;
+$quick-font: "Quicksand", sans-serif;
+
+.our-values__section {
+    display: flex;
+    justify-content: center;
+    height: 563px;
+    background-color: #5f5af0;
+    margin-bottom: 200px;
+    align-items: center;
+    
+    .our-values__container {
+        width: 1200px;
+        display: flex;
+        justify-content: center;  
+        align-items: center;      
+        .our-values__flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .our-values__flex__item {
+                padding: 35px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 70px;
+                .our-values__title{
+                    h2{
+                        font-size: 36px;
+                        font-family: $quick-font;
+                        color: white;
+                        margin-bottom: 50px;
+                        margin-left: 10px;
+                    }
+                }
+                .our-values__ten-vales__container{
+                    width: 700px;
+                    
+                    display: flex;
+                    justify-content: space-between;
+                    .our-values__ten-vales {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .our-values__text{
+                            display: flex;
+                            
+                            svg{
+                                width: 45px;
+                                height: 45px;
+                                margin: 5px 20px;
+                            }
+                            p{
+                                margin-top: 10px;
+                                font-size: 28px;
+                                font-family: $roboto-font;
+                                color: white;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+                
+                .our-values__img {
+
+                    img{
+                        height: 445px;
+                        width: 445px;
+                    }
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
