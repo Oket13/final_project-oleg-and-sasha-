@@ -29,6 +29,7 @@ $kurale-font: "Kurale", serif;
                     font-size: 66px;
                     font-weight: 400;
                     margin-bottom: 15px;
+                    color: black;
                 }
 
                 .title-img__text__container {
@@ -41,11 +42,13 @@ $kurale-font: "Kurale", serif;
                         flex-direction: row;
 
                         i {
+                            color: black;
                             font-size: 26px;
                             margin-right: 5px;
                         }
 
                         p {
+                            color: black;
                             font-family: $kurale-font;
                             font-size: 20px;
                         }
@@ -67,6 +70,7 @@ $kurale-font: "Kurale", serif;
 
                             a {
                                 text-decoration: none;
+                                
                             }
 
                             p {

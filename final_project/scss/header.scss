@@ -31,9 +31,13 @@ header{
                     a{
                         display: flex;
                         justify-content: center;
+                        
                         text-decoration: none;
                         color: $color-white;
                         transition-duration: 0.5s;
+                        p{
+                            margin: 0;
+                        }
                         .icon-location, .icon-phone, .icon-mail{
                             margin-right: 5px;
                         }

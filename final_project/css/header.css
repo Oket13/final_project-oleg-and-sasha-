@@ -30,6 +30,8 @@ header {
             text-decoration: none;
             color: white;
             transition-duration: 0.5s; }
+            header .header__container .header__flex .header__flex__item .first__item a p {
+              margin: 0; }
             header .header__container .header__flex .header__flex__item .first__item a .icon-location, header .header__container .header__flex .header__flex__item .first__item a .icon-phone, header .header__container .header__flex .header__flex__item .first__item a .icon-mail {
               margin-right: 5px; }
             header .header__container .header__flex .header__flex__item .first__item a:hover {

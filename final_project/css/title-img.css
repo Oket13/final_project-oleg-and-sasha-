@@ -19,7 +19,8 @@
         font-family: "Kurale", serif;
         font-size: 66px;
         font-weight: 400;
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+        color: black; }
       .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container {
         width: 605px;
         height: 217px;
@@ -28,9 +29,11 @@
           display: flex;
           flex-direction: row; }
           .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item i {
+            color: black;
             font-size: 26px;
             margin-right: 5px; }
           .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item p {
+            color: black;
             font-family: "Kurale", serif;
             font-size: 20px; }
         .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button {
