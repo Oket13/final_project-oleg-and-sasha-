@@ -8,6 +8,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 100px; }
+  @media (max-width: 1440px) {
+    .our-projects .our-projects__container {
+      width: 960px; } }
+  @media (max-width: 992px) {
+    .our-projects .our-projects__container {
+      width: 720px; } }
   .our-projects .our-projects__container .our-project__flex__line {
     display: flex;
     justify-content: center;
@@ -41,6 +47,12 @@
     justify-content: space-between;
     align-items: center;
     width: 1200px; }
+    @media (max-width: 1440px) {
+      .our-projects .our-projects__container .out-projects__flex {
+        width: 960px; } }
+    @media (max-width: 992px) {
+      .our-projects .our-projects__container .out-projects__flex {
+        width: 720px; } }
     .our-projects .our-projects__container .out-projects__flex .our-project__flex__item {
       display: flex;
       justify-content: center;
@@ -55,23 +67,51 @@
       border-radius: 20px 20px 20px 20px;
       box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05) inset;
       border-radius: 20px; }
+      @media (max-width: 1440px) {
+        .our-projects .our-projects__container .out-projects__flex .our-project__flex__item {
+          width: 300px;
+          height: 450px; } }
+      @media (max-width: 992px) {
+        .our-projects .our-projects__container .out-projects__flex .our-project__flex__item {
+          width: 220px;
+          height: 420px; } }
       .our-projects .our-projects__container .out-projects__flex .our-project__flex__item h2 {
         text-align: center;
         margin-bottom: 30px;
         font-size: 26px;
         font-family: "Open Sans", sans-serif; }
+        @media (max-width: 1440px) {
+          .our-projects .our-projects__container .out-projects__flex .our-project__flex__item h2 {
+            font-size: 20px; } }
+        @media (max-width: 992px) {
+          .our-projects .our-projects__container .out-projects__flex .our-project__flex__item h2 {
+            font-size: 17px; } }
       .our-projects .our-projects__container .out-projects__flex .our-project__flex__item svg {
         margin-top: 20px;
         height: 105px;
         width: 105px;
         margin: 0 auto;
         margin-bottom: 25px; }
+        @media (max-width: 1440px) {
+          .our-projects .our-projects__container .out-projects__flex .our-project__flex__item svg {
+            height: 70px;
+            width: 70px; } }
+        @media (max-width: 992px) {
+          .our-projects .our-projects__container .out-projects__flex .our-project__flex__item svg {
+            height: 60px;
+            width: 60px; } }
       .our-projects .our-projects__container .out-projects__flex .our-project__flex__item p {
         text-align: center;
         font-weight: 400;
         line-height: 2;
         height: 80px;
         color: #7a7a7a; }
+        @media (max-width: 1440px) {
+          .our-projects .our-projects__container .out-projects__flex .our-project__flex__item p {
+            font-size: 14px; } }
+        @media (max-width: 992px) {
+          .our-projects .our-projects__container .out-projects__flex .our-project__flex__item p {
+            font-size: 12px; } }
       .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a {
         text-decoration: none; }
         .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__blue, .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__yellow, .our-projects .our-projects__container .out-projects__flex .our-project__flex__item a .our-project__text__purple {
@@ -113,10 +153,24 @@
       justify-content: center;
       align-items: center;
       transition-duration: 0.5s; }
+      @media (max-width: 1440px) {
+        .our-projects .our-projects__container .our-project__flex__button .purple__cirlce {
+          width: 50px;
+          height: 50px; } }
+      @media (max-width: 992px) {
+        .our-projects .our-projects__container .our-project__flex__button .purple__cirlce {
+          width: 45px;
+          height: 45px; } }
       .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-left-open, .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-right-open {
         font-size: 24px;
         color: white;
         margin: 0 auto; }
+        @media (max-width: 1440px) {
+          .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-left-open, .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-right-open {
+            font-size: 22px; } }
+        @media (max-width: 992px) {
+          .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-left-open, .our-projects .our-projects__container .our-project__flex__button .purple__cirlce .icon-right-open {
+            font-size: 18px; } }
       .our-projects .our-projects__container .our-project__flex__button .purple__cirlce:hover {
         cursor: pointer;
         background-color: #5d2896; }

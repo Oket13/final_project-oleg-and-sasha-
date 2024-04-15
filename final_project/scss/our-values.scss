@@ -10,21 +10,52 @@ $quick-font: "Quicksand", sans-serif;
     background-color: #5f5af0;
     margin-bottom: 100px;
     align-items: center;
+     
     .our-values__container {
         width: 1200px;
         display: flex;
         justify-content: center;  
-        align-items: center;      
+        align-items: center;
+        @media (max-width:1440px) {
+            font-size: 30px;
+            
+        }
+        @media (max-width:992px) {
+            font-size: 24px;
+            
+        }
+        @media (max-width:1440px) {
+            width: 960px;
+            
+        }
+        @media (max-width:992px) {
+            width: 720px;
+            
+        }
         .our-values__flex {
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (max-width:1440px) {
+                width: 960px;
+                
+            }
+            @media (max-width:992px) {
+                width: 720px;
+                
+            }
             .our-values__flex__item {
                 padding: 35px;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 margin-bottom: 70px;
+                @media (max-width:1440px) {
+                    padding: 25px;
+                }
+                @media (max-width:992px) {
+                    padding: 10px;
+                }
                 .our-values__title{
                     h2{
                         font-size: 36px;
@@ -34,12 +65,29 @@ $quick-font: "Quicksand", sans-serif;
                         margin-top: 50px;
                         margin-left: 10px;
                         font-weight: 600;
+                        @media (max-width:1440px) {
+                            font-size: 30px;
+                            
+                            
+                        }
+                        @media (max-width:992px) {
+                            font-size: 24px;
+                            
+                        }
                     }
                 }
                 .our-values__ten-vales__container{
                     width: 700px;
                     display: flex;
                     justify-content: space-between;
+                    @media (max-width:1440px) {
+                        width: 600px;
+                        
+                    }
+                    @media (max-width:992px) {
+                        width: 450px;
+                        
+                    }
                     .our-values__ten-vales {
                         display: flex;
                         flex-direction: column;
@@ -51,6 +99,16 @@ $quick-font: "Quicksand", sans-serif;
                                 width: 45px;
                                 height: 45px;
                                 margin: 5px 20px;
+                                @media (max-width:1440px) {
+                                    width: 40px;
+                                    height: 40px;
+                                    
+                                }
+                                @media (max-width:992px) {
+                                    width: 30px;
+                                    height: 30px;
+                                    
+                                }
                             }
                             p{
                                 margin-top: 10px;
@@ -58,6 +116,14 @@ $quick-font: "Quicksand", sans-serif;
                                 font-family: $roboto-font;
                                 color: white;
                                 font-weight: 300;
+                                @media (max-width:1440px) {
+                                    font-size: 26px;
+                                    
+                                }
+                                @media (max-width:992px) {
+                                    font-size: 20px;
+                                    
+                                }
                             }
                         }
                     }
@@ -66,6 +132,16 @@ $quick-font: "Quicksand", sans-serif;
                     img{
                         height: 445px;
                         width: 445px;
+                        @media (max-width:1440px) {
+                            height: 325px;
+                            width: 325px;
+                            
+                        }
+                        @media (max-width:992px) {
+                            height: 285px;
+                            width: 285px;
+                            
+                        }
                     }
                 }
                 &:last-child{

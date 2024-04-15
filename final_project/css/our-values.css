@@ -10,16 +10,40 @@
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media (max-width: 1440px) {
+      .our-values__section .our-values__container {
+        font-size: 30px; } }
+    @media (max-width: 992px) {
+      .our-values__section .our-values__container {
+        font-size: 24px; } }
+    @media (max-width: 1440px) {
+      .our-values__section .our-values__container {
+        width: 960px; } }
+    @media (max-width: 992px) {
+      .our-values__section .our-values__container {
+        width: 720px; } }
     .our-values__section .our-values__container .our-values__flex {
       display: flex;
       justify-content: center;
       align-items: center; }
+      @media (max-width: 1440px) {
+        .our-values__section .our-values__container .our-values__flex {
+          width: 960px; } }
+      @media (max-width: 992px) {
+        .our-values__section .our-values__container .our-values__flex {
+          width: 720px; } }
       .our-values__section .our-values__container .our-values__flex .our-values__flex__item {
         padding: 35px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin-bottom: 70px; }
+        @media (max-width: 1440px) {
+          .our-values__section .our-values__container .our-values__flex .our-values__flex__item {
+            padding: 25px; } }
+        @media (max-width: 992px) {
+          .our-values__section .our-values__container .our-values__flex .our-values__flex__item {
+            padding: 10px; } }
         .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__title h2 {
           font-size: 36px;
           font-family: "Quicksand", sans-serif;
@@ -28,10 +52,22 @@
           margin-top: 50px;
           margin-left: 10px;
           font-weight: 600; }
+          @media (max-width: 1440px) {
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__title h2 {
+              font-size: 30px; } }
+          @media (max-width: 992px) {
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__title h2 {
+              font-size: 24px; } }
         .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container {
           width: 700px;
           display: flex;
           justify-content: space-between; }
+          @media (max-width: 1440px) {
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container {
+              width: 600px; } }
+          @media (max-width: 992px) {
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container {
+              width: 450px; } }
           .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales {
             display: flex;
             flex-direction: column;
@@ -42,15 +78,37 @@
                 width: 45px;
                 height: 45px;
                 margin: 5px 20px; }
+                @media (max-width: 1440px) {
+                  .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text svg {
+                    width: 40px;
+                    height: 40px; } }
+                @media (max-width: 992px) {
+                  .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text svg {
+                    width: 30px;
+                    height: 30px; } }
               .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text p {
                 margin-top: 10px;
                 font-size: 28px;
                 font-family: "Roboto", sans-serif;
                 color: white;
                 font-weight: 300; }
+                @media (max-width: 1440px) {
+                  .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text p {
+                    font-size: 26px; } }
+                @media (max-width: 992px) {
+                  .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__ten-vales__container .our-values__ten-vales .our-values__text p {
+                    font-size: 20px; } }
         .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__img img {
           height: 445px;
           width: 445px; }
+          @media (max-width: 1440px) {
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__img img {
+              height: 325px;
+              width: 325px; } }
+          @media (max-width: 992px) {
+            .our-values__section .our-values__container .our-values__flex .our-values__flex__item .our-values__img img {
+              height: 285px;
+              width: 285px; } }
         .our-values__section .our-values__container .our-values__flex .our-values__flex__item:last-child {
           margin-bottom: 0; }
 
