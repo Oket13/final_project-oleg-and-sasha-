@@ -11,6 +11,14 @@
   .title-img__section .title-img__container {
     height: 800px;
     width: 1200px; }
+    @media (max-width: 1440px) {
+      .title-img__section .title-img__container {
+        width: 960px;
+        height: 750px; } }
+    @media (max-width: 992px) {
+      .title-img__section .title-img__container {
+        width: 720px;
+        height: 700px; } }
     .title-img__section .title-img__container .title-img__flex {
       margin-top: 135px;
       display: flex;
@@ -21,10 +29,26 @@
         font-weight: 400;
         margin-bottom: 15px;
         color: black; }
+        @media (max-width: 1440px) {
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 h2 {
+            font-size: 60px;
+            margin-bottom: 15px; } }
+        @media (max-width: 992px) {
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 h2 {
+            font-size: 50px;
+            margin-bottom: 15px; } }
       .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container {
         width: 605px;
         height: 217px;
         margin-left: 70px; }
+        @media (max-width: 1440px) {
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container {
+            width: 580px;
+            height: 217px; } }
+        @media (max-width: 992px) {
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container {
+            width: 500px;
+            height: 217px; } }
         .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item {
           display: flex;
           flex-direction: row; }
@@ -32,10 +56,22 @@
             color: black;
             font-size: 26px;
             margin-right: 5px; }
+            @media (max-width: 1440px) {
+              .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item i {
+                font-size: 26px; } }
+            @media (max-width: 992px) {
+              .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item i {
+                font-size: 26px; } }
           .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item p {
             color: black;
             font-family: "Kurale", serif;
             font-size: 20px; }
+            @media (max-width: 1440px) {
+              .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item p {
+                font-size: 18px; } }
+            @media (max-width: 992px) {
+              .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item p {
+                font-size: 16px; } }
         .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button {
           align-self: center;
           display: flex;
@@ -48,6 +84,14 @@
             width: 188px;
             font-size: 20px;
             transition-duration: 0.3s; }
+            @media (max-width: 1440px) {
+              .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button {
+                height: 45px;
+                width: 160px; } }
+            @media (max-width: 992px) {
+              .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button {
+                height: 40px;
+                width: 150px; } }
             .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button a {
               text-decoration: none; }
             .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button p {
@@ -56,11 +100,25 @@
               font-family: "Kurale", serif;
               text-align: center;
               margin: 0 auto; }
+              @media (max-width: 1440px) {
+                .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button p {
+                  font-size: 16px; } }
+              @media (max-width: 992px) {
+                .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button p {
+                  font-size: 14px; } }
             .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button:hover {
               background-color: black; }
       .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container {
         margin-top: 275px;
         margin-left: 100px; }
+        @media (max-width: 1440px) {
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container {
+            margin-top: 255px;
+            margin-left: 175px; } }
+        @media (max-width: 992px) {
+          .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container {
+            margin-top: 225px;
+            margin-left: 200px; } }
         .title-img__section .title-img__container .title-img__flex .title-img__flex__slider .title-img__flex__slider__container i {
           color: #4a1a7d;
           transition-duration: 0.4s; }

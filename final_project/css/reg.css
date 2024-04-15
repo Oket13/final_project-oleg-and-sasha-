@@ -9,8 +9,20 @@
   align-items: center;
   height: 440px;
   background-color: #bae7ff; }
+  @media (max-width: 1440px) {
+    .reg {
+      height: 400px; } }
+  @media (max-width: 992px) {
+    .reg {
+      height: 350px; } }
   .reg .reg__container {
     width: 1230px; }
+    @media (max-width: 1440px) {
+      .reg .reg__container {
+        width: 960px; } }
+    @media (max-width: 992px) {
+      .reg .reg__container {
+        width: 720px; } }
     .reg .reg__container .reg__grid {
       display: flex;
       justify-content: space-between; }
@@ -22,6 +34,13 @@
         height: 290px;
         transition-duration: 0.5s;
         border-radius: 25px; }
+        @media (max-width: 1440px) {
+          .reg .reg__container .reg__grid .reg__grid__item {
+            width: 200px; } }
+        @media (max-width: 992px) {
+          .reg .reg__container .reg__grid .reg__grid__item {
+            width: 150px;
+            height: 200px; } }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
           cursor: pointer;
           margin: 0 auto;
@@ -35,12 +54,28 @@
           display: flex;
           justify-content: center;
           align-items: center; }
+          @media (max-width: 1440px) {
+            .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
+              width: 110px;
+              height: 110px; } }
+          @media (max-width: 992px) {
+            .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
+              width: 100px;
+              height: 100px; } }
           .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a {
             text-decoration: none;
             color: white; }
             .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a svg {
               width: 60px;
               height: 60px; }
+              @media (max-width: 1440px) {
+                .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a svg {
+                  width: 50px;
+                  height: 50px; } }
+              @media (max-width: 992px) {
+                .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a svg {
+                  width: 45px;
+                  height: 45px; } }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow {
           background-color: #f0aa00; }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple {
@@ -57,6 +92,12 @@
             font-size: 23px;
             font-family: "Kurale", serif;
             margin-bottom: 25px; }
+            @media (max-width: 1440px) {
+              .reg .reg__container .reg__grid .reg__grid__item a p {
+                font-size: 20px; } }
+            @media (max-width: 992px) {
+              .reg .reg__container .reg__grid .reg__grid__item a p {
+                font-size: 16px; } }
         .reg .reg__container .reg__grid .reg__grid__item:hover {
           background-color: white;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
