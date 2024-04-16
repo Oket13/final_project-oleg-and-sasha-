@@ -35,7 +35,7 @@ header{
         }
         @media (max-width:576px) {
             
-            width: 400px;
+            width: 300px;
         }
         
         
@@ -47,10 +47,13 @@ header{
                 justify-content: center;
             }
             @media (max-width:576px) {
+                margin-top: 20px;
+                display: block;
                 justify-content: center;
             }
             .hamburger-menu{
                 display: none;
+                
                 #menu__toggle {
                     opacity: 0;
                 }
@@ -169,7 +172,7 @@ header{
                         }
                     }
                     @media (max-width:576px) {
-                        margin-right: 10px;
+                        margin-right: 5px;
                         
                     }
                     a{
@@ -209,7 +212,7 @@ header{
                             }
                             @media (max-width:576px) {
                                 margin-right: 2px;
-                                font-size:6px;
+                                font-size:8px;
                             }
                         }
                         &:hover{
@@ -227,12 +230,11 @@ header{
                         
                     }
                     @media (max-width:576px) {
-                        margin-right: 4px;
+                        margin-right: 0px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                            
-                        
+                             
                     }
                     a{
                         text-decoration: none;
@@ -254,8 +256,10 @@ header{
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                font-size: 8px;
+                                font-size: 10px;
+                                margin-right: 5px;
                             }
+
                         }
                         &:hover{
                             color: yellow;

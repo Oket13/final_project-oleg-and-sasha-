@@ -29,7 +29,7 @@ $kurale-font: "Kurale", serif;
         }
         @media (max-width:576px) {
             height: 400px;
-            width: 400px;
+            width: 250px;
         }
 
         .title-img__flex {
@@ -52,7 +52,7 @@ $kurale-font: "Kurale", serif;
                     display: flex;
                     justify-content: center;
                     flex-wrap: wrap;
-                    width: 300px;
+                    width: 250px;
                 }
                 h2 {
                     font-family: $kurale-font;
@@ -96,7 +96,7 @@ $kurale-font: "Kurale", serif;
                         margin-left: 20px;
                     }
                     @media (max-width:576px) {
-                        width: 300px;
+                        width: 250px;
                         margin-left: 5px;
                     }
 
@@ -152,7 +152,7 @@ $kurale-font: "Kurale", serif;
                             width: 450px;  
                         }
                         @media (max-width:576px) {
-                            width: 300px;    
+                            width: 250px;    
                         }
                         .title__img__button {
                             margin-top: 20px;

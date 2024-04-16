@@ -29,7 +29,7 @@ header {
         width: 540px; } }
     @media (max-width: 576px) {
       header .header__container {
-        width: 400px; } }
+        width: 300px; } }
     header .header__container .header__flex {
       display: flex;
       justify-content: space-between;
@@ -39,6 +39,8 @@ header {
           justify-content: center; } }
       @media (max-width: 576px) {
         header .header__container .header__flex {
+          margin-top: 20px;
+          display: block;
           justify-content: center; } }
       header .header__container .header__flex .hamburger-menu {
         display: none; }
@@ -129,7 +131,7 @@ header {
                 margin-left: 30px; } }
           @media (max-width: 576px) {
             header .header__container .header__flex .header__flex__item .first__item {
-              margin-right: 10px; } }
+              margin-right: 5px; } }
           header .header__container .header__flex .header__flex__item .first__item a {
             display: flex;
             justify-content: center;
@@ -167,7 +169,7 @@ header {
               @media (max-width: 576px) {
                 header .header__container .header__flex .header__flex__item .first__item a .icon-location, header .header__container .header__flex .header__flex__item .first__item a .icon-phone, header .header__container .header__flex .header__flex__item .first__item a .icon-mail {
                   margin-right: 2px;
-                  font-size: 6px; } }
+                  font-size: 8px; } }
             header .header__container .header__flex .header__flex__item .first__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {
@@ -177,7 +179,7 @@ header {
           color: white; }
           @media (max-width: 576px) {
             header .header__container .header__flex .header__flex__item .second__item {
-              margin-right: 4px;
+              margin-right: 0px;
               display: flex;
               justify-content: center;
               align-items: center; } }
@@ -199,7 +201,8 @@ header {
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  font-size: 8px; } }
+                  font-size: 10px;
+                  margin-right: 5px; } }
             header .header__container .header__flex .header__flex__item .second__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {

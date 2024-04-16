@@ -34,7 +34,7 @@ header {
         width: 540px; } }
     @media (max-width: 576px) {
       header .header__container {
-        width: 400px; } }
+        width: 300px; } }
     header .header__container .header__flex {
       display: flex;
       justify-content: space-between;
@@ -44,6 +44,8 @@ header {
           justify-content: center; } }
       @media (max-width: 576px) {
         header .header__container .header__flex {
+          margin-top: 20px;
+          display: block;
           justify-content: center; } }
       header .header__container .header__flex .hamburger-menu {
         display: none; }
@@ -134,7 +136,7 @@ header {
                 margin-left: 30px; } }
           @media (max-width: 576px) {
             header .header__container .header__flex .header__flex__item .first__item {
-              margin-right: 10px; } }
+              margin-right: 5px; } }
           header .header__container .header__flex .header__flex__item .first__item a {
             display: flex;
             justify-content: center;
@@ -172,7 +174,7 @@ header {
               @media (max-width: 576px) {
                 header .header__container .header__flex .header__flex__item .first__item a .icon-location, header .header__container .header__flex .header__flex__item .first__item a .icon-phone, header .header__container .header__flex .header__flex__item .first__item a .icon-mail {
                   margin-right: 2px;
-                  font-size: 6px; } }
+                  font-size: 8px; } }
             header .header__container .header__flex .header__flex__item .first__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {
@@ -182,7 +184,7 @@ header {
           color: white; }
           @media (max-width: 576px) {
             header .header__container .header__flex .header__flex__item .second__item {
-              margin-right: 4px;
+              margin-right: 0px;
               display: flex;
               justify-content: center;
               align-items: center; } }
@@ -204,7 +206,8 @@ header {
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  font-size: 8px; } }
+                  font-size: 10px;
+                  margin-right: 5px; } }
             header .header__container .header__flex .header__flex__item .second__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {
@@ -852,7 +855,7 @@ footer {
             height: 175px; } }
         @media (max-width: 576px) {
           .reg .reg__container .reg__grid .reg__grid__item {
-            width: 75px;
+            width: 65px;
             height: 150px; } }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
           cursor: pointer;
@@ -936,7 +939,7 @@ footer {
                 height: 60px; } }
             @media (max-width: 576px) {
               .reg .reg__container .reg__grid .reg__grid__item a p {
-                font-size: 12px; } }
+                font-size: 10px; } }
         .reg .reg__container .reg__grid .reg__grid__item:hover {
           background-color: white;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
@@ -1008,7 +1011,7 @@ footer {
     @media (max-width: 576px) {
       .title-img__section .title-img__container {
         height: 400px;
-        width: 400px; } }
+        width: 250px; } }
     .title-img__section .title-img__container .title-img__flex {
       margin-top: 135px;
       display: flex;
@@ -1029,7 +1032,7 @@ footer {
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
-          width: 300px; } }
+          width: 250px; } }
       .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 h2 {
         font-family: "Kurale", serif;
         font-size: 66px;
@@ -1066,7 +1069,7 @@ footer {
             margin-left: 20px; } }
         @media (max-width: 576px) {
           .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container {
-            width: 300px;
+            width: 250px;
             margin-left: 5px; } }
         .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__text__item {
           display: flex;
@@ -1113,7 +1116,7 @@ footer {
               width: 450px; } }
           @media (max-width: 576px) {
             .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button {
-              width: 300px; } }
+              width: 250px; } }
           .title-img__section .title-img__container .title-img__flex .title-img__flex__item2 .title-img__text__container .title-img__flex__button .title__img__button {
             margin-top: 20px;
             background-color: #4a1a7d;
