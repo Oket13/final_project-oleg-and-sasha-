@@ -8,23 +8,30 @@ $roboto-font: "Roboto", sans-serif;
     box-sizing: border-box;
 }
 
-
-
 .our-projects {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    @media (max-width:775px) {
+        margin-bottom: 25px;
+    }
+    @media (max-width:576px) {
+        margin-bottom: 10px;
+    }
     .our-projects__container {
         @media (max-width:1440px) {
             width: 960px;
-            
         }
         @media (max-width:992px) {
             width: 720px;
-            
         }
-        
+        @media (max-width:775px) {
+            width: 540px;
+        }
+        @media (max-width:576px) {
+            width: 400px;
+        }
         .our-project__flex__line {
             display: flex;
             justify-content: center;
@@ -37,13 +44,18 @@ $roboto-font: "Roboto", sans-serif;
                 font-size: 46px;
                 @media (max-width:1440px) {
                     font-size: 40px;
-                    
                 }
                 @media (max-width:992px) {
-                    font-size: 35px;
-                    
+                    font-size: 35px; 
                 }
-
+                @media (max-width:775px) {
+                    font-size: 30px;
+                    margin-top: 50px;
+                }
+                @media (max-width:576px) {
+                    font-size: 25px;
+                    margin-top: 50px;
+                }
             }
             .our-project__line {
                 margin-top: 30px;
@@ -52,12 +64,17 @@ $roboto-font: "Roboto", sans-serif;
                 background-color: #4a1a7d;;
                 height: 1px;
                 @media (max-width:1440px) {
-                    width: 170px;
-                    
+                    width: 170px; 
                 }
                 @media (max-width:992px) {
                     width: 155px;
-                    
+                }
+                @media (max-width:775px) {
+                    width: 140px;
+                    margin-bottom: 50px;
+                }
+                @media (max-width:576px) {
+                    width: 130px;
                 }
             }
         }
@@ -68,12 +85,22 @@ $roboto-font: "Roboto", sans-serif;
             width: 1200px;
             @media (max-width:1440px) {
                 width: 960px;
-                
             }
             @media (max-width:992px) {
                 width: 720px;
-                
             }
+            @media (max-width:775px) {
+                flex-direction: column;
+                margin: 0 auto;
+                width: 250px;
+                
+             }
+             @media (max-width:576px) {
+                flex-direction: column;
+                margin: 0 auto;
+                width: 200px;
+                
+             }
             .our-project__flex__item {
                 display: flex;
                 justify-content: center;
@@ -91,11 +118,17 @@ $roboto-font: "Roboto", sans-serif;
                 @media (max-width:1440px) {
                     width: 300px;
                     height: 450px;
-                    
                 }
                 @media (max-width:992px) {
                     width: 220px;
                     height: 420px;
+                }
+                @media (max-width:775px) {
+                    margin-bottom: 30px;
+                    height: 320px;
+                }
+                @media (max-width:576px) {
+                    height: 320px;
                 }
                 h2{
                     text-align: center;
@@ -103,11 +136,13 @@ $roboto-font: "Roboto", sans-serif;
                     font-size: 26px;
                     font-family: $opensans-font;
                     @media (max-width:1440px) {
-                        font-size: 20px;
-                        
+                        font-size: 20px; 
                     }
                     @media (max-width:992px) {
                         font-size: 17px;
+                    }
+                    @media (max-width:775px) {
+                        font-size: 15px;
                     }
                 }
                 svg{
@@ -134,10 +169,15 @@ $roboto-font: "Roboto", sans-serif;
                     color: #7a7a7a;;
                     @media (max-width:1440px) {
                         font-size: 14px;
-                        
                     }
                     @media (max-width:992px) {
                         font-size: 12px;
+                    }
+                    @media (max-width:775px) {
+                        height: 40px;
+                    }
+                    @media (max-width:576px) {
+                        height: 40px;
                     }
                 }
                 a{
@@ -158,7 +198,6 @@ $roboto-font: "Roboto", sans-serif;
                 }
                 &:hover{
                     transform: translate(0, -20px)
-                    
                 }
                 &:first-child{
                     &:hover{
@@ -180,14 +219,18 @@ $roboto-font: "Roboto", sans-serif;
                     }
                 }
             }
-            
-            
         }
         .our-project__flex__button {
             margin-top: 15px;
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (max-width:775px) {
+               display: none;
+            }
+            @media (max-width:576px) {
+                display: none;
+            }
             .purple__cirlce{
                 background-color: #4a1a7d;
                 width: 60px;
@@ -201,12 +244,10 @@ $roboto-font: "Roboto", sans-serif;
                 @media (max-width:1440px) {
                     width: 50px;
                     height: 50px;
-                    
                 }
                 @media (max-width:992px) {
                     width: 45px;
                     height: 45px;
-                    
                 }
                 .icon-left-open, .icon-right-open {
                     font-size: 24px;
@@ -214,11 +255,9 @@ $roboto-font: "Roboto", sans-serif;
                     margin: 0 auto;
                     @media (max-width:1440px) {
                         font-size: 22px;
-                        
                     }
                     @media (max-width:992px) {
                         font-size: 18px;
-                        
                     }
                 }
                 &:hover{

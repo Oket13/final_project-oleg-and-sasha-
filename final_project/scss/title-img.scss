@@ -4,17 +4,14 @@ $kurale-font: "Kurale", serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 
 .title-img__section {
-
     background-image: url(../img/title-img.png);
     background-size: cover;
     display: flex;
     justify-content: center;
-
     .title-img__container {
         height: 800px;
         width: 1200px;
@@ -26,12 +23,37 @@ $kurale-font: "Kurale", serif;
             width: 720px;
             height: 700px;
         }
+        @media (max-width:775px) {
+            height: 500px;
+            width: 540px;
+        }
+        @media (max-width:576px) {
+            height: 400px;
+            width: 400px;
+        }
 
         .title-img__flex {
             margin-top: 135px;
             display: flex;
             justify-content: flex-end;
+            @media (max-width:775px) {
+                justify-content: center;
+                margin-top: 75px;
+            }
+            @media (max-width:576px) {
+                justify-content: center;
+                margin-top: 50px;
+            }
             .title-img__flex__item2 {
+                @media (max-width:775px) {
+                    width: 500px;
+                }
+                @media (max-width:576px) {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    width: 300px;
+                }
                 h2 {
                     font-family: $kurale-font;
                     font-size: 66px;
@@ -40,11 +62,18 @@ $kurale-font: "Kurale", serif;
                     color: black;
                     @media (max-width:1440px) {
                         font-size: 60px;
-                        margin-bottom: 15px;
                     }
                     @media (max-width:992px) {
                         font-size: 50px;
-                        margin-bottom: 15px;
+                        
+                    }
+                    @media (max-width:775px) {
+                        font-size: 40px;
+                        
+                    }
+                    @media (max-width:576px) {
+                        font-size: 20px;
+                        
                     }
                 }
 
@@ -62,6 +91,14 @@ $kurale-font: "Kurale", serif;
                         height: 217px;
                         
                     }
+                    @media (max-width:775px) {
+                        width: 540px;
+                        margin-left: 20px;
+                    }
+                    @media (max-width:576px) {
+                        width: 300px;
+                        margin-left: 5px;
+                    }
 
                     .title-img__text__item {
                         display: flex;
@@ -73,11 +110,15 @@ $kurale-font: "Kurale", serif;
                             margin-right: 5px;
                             @media (max-width:1440px) {
                                 font-size: 26px;
-                                
                             }
                             @media (max-width:992px) {
-                                font-size: 26px;
-                                
+                                font-size: 26px; 
+                            }
+                            @media (max-width:775px) {
+                                font-size: 20px;
+                            }
+                            @media (max-width:576px) {
+                                font-size: 15px;
                             }
                         }
 
@@ -93,6 +134,13 @@ $kurale-font: "Kurale", serif;
                                 font-size: 16px;
                                 
                             }
+                            @media (max-width:775px) {
+                                width: 400px;
+                                font-size: 14px;
+                            }
+                            @media (max-width:576px) {
+                                font-size: 10px;
+                            }
                         }
                     }
 
@@ -100,7 +148,12 @@ $kurale-font: "Kurale", serif;
                         align-self: center;
                         display: flex;
                         justify-content: center;
-
+                        @media (max-width:775px) {
+                            width: 450px;  
+                        }
+                        @media (max-width:576px) {
+                            width: 300px;    
+                        }
                         .title__img__button {
                             margin-top: 20px;
                             background-color: #4a1a7d;
@@ -112,19 +165,22 @@ $kurale-font: "Kurale", serif;
                             @media (max-width:1440px) {
                                 height: 45px;
                                 width: 160px;
-                                
                             }
                             @media (max-width:992px) {
                                 height: 40px;
-                                width: 150px;
-                                
+                                width: 150px;   
                             }
-
+                            @media (max-width:775px) {
+                                height: 35px;
+                                width: 140px;  
+                            }
+                            @media (max-width:576px) {
+                                height: 30px;
+                                width: 130px;  
+                            }
                             a {
                                 text-decoration: none;
-                                
                             }
-
                             p {
                                 color: white;
                                 padding: 10px;
@@ -132,18 +188,20 @@ $kurale-font: "Kurale", serif;
                                 text-align: center;
                                 margin: 0 auto;
                                 @media (max-width:1440px) {
-                                    
                                     font-size: 16px;
-                                    
                                 }
                                 @media (max-width:992px) {
-                                    
                                     font-size: 14px;
-                                    
                                 }
-                                
+                                @media (max-width:775px) {
+                                    font-size: 12px;
+                                    padding: 9px;
+                                }
+                                @media (max-width:576px) {
+                                    font-size: 10px;
+                                    padding: 7.5px;
+                                }
                             }
-
                             &:hover {
                                 background-color: black;
                             }
@@ -152,7 +210,6 @@ $kurale-font: "Kurale", serif;
                 }
             }
             .title-img__flex__slider {
-
                 .title-img__flex__slider__container{
                     margin-top: 275px;
                     margin-left: 100px;
@@ -163,16 +220,27 @@ $kurale-font: "Kurale", serif;
                     @media (max-width:992px) {
                         margin-top: 225px;
                         margin-left: 200px;
-                        
                     }
-                    
+                    @media (max-width:775px) {
+                        margin-top: 100px;
+                        margin-left: 220px;
+                    }
+                    @media (max-width:576px) {
+                        margin-top: 50px;
+                        margin-left: 0px;
+                    }
                     i {
                         color: #4a1a7d;
                         transition-duration: 0.4s;
                         &:hover{
                             color: black;
                             cursor: pointer;
-                            
+                        }
+                        @media (max-width:775px) {
+                            font-size: 12px;
+                        }
+                        @media (max-width:576px) {
+                        font-size: 13px;
                         }
                     }
                 }

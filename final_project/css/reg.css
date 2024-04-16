@@ -15,6 +15,9 @@
   @media (max-width: 992px) {
     .reg {
       height: 350px; } }
+  @media (max-width: 775px) {
+    .reg {
+      height: 250px; } }
   .reg .reg__container {
     width: 1230px; }
     @media (max-width: 1440px) {
@@ -23,6 +26,12 @@
     @media (max-width: 992px) {
       .reg .reg__container {
         width: 720px; } }
+    @media (max-width: 775px) {
+      .reg .reg__container {
+        width: 570px; } }
+    @media (max-width: 576px) {
+      .reg .reg__container {
+        width: 400px; } }
     .reg .reg__container .reg__grid {
       display: flex;
       justify-content: space-between; }
@@ -41,6 +50,14 @@
           .reg .reg__container .reg__grid .reg__grid__item {
             width: 150px;
             height: 200px; } }
+        @media (max-width: 775px) {
+          .reg .reg__container .reg__grid .reg__grid__item {
+            width: 125px;
+            height: 175px; } }
+        @media (max-width: 576px) {
+          .reg .reg__container .reg__grid .reg__grid__item {
+            width: 75px;
+            height: 150px; } }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
           cursor: pointer;
           margin: 0 auto;
@@ -62,6 +79,15 @@
             .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
               width: 100px;
               height: 100px; } }
+          @media (max-width: 775px) {
+            .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
+              width: 75px;
+              height: 75px; } }
+          @media (max-width: 576px) {
+            .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue {
+              width: 60px;
+              height: 60px;
+              padding: 20px; } }
           .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a {
             text-decoration: none;
             color: white; }
@@ -76,6 +102,14 @@
                 .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a svg {
                   width: 45px;
                   height: 45px; } }
+              @media (max-width: 775px) {
+                .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a svg {
+                  width: 40px;
+                  height: 40px; } }
+              @media (max-width: 576px) {
+                .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__green a svg, .reg .reg__container .reg__grid .reg__grid__item .reg__foto__blue a svg {
+                  width: 30px;
+                  height: 30px; } }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__yellow {
           background-color: #f0aa00; }
         .reg .reg__container .reg__grid .reg__grid__item .reg__foto__purple {
@@ -97,7 +131,16 @@
                 font-size: 20px; } }
             @media (max-width: 992px) {
               .reg .reg__container .reg__grid .reg__grid__item a p {
-                font-size: 16px; } }
+                font-size: 16px;
+                margin-bottom: 20px; } }
+            @media (max-width: 775px) {
+              .reg .reg__container .reg__grid .reg__grid__item a p {
+                font-size: 14px;
+                margin-bottom: 0px;
+                height: 60px; } }
+            @media (max-width: 576px) {
+              .reg .reg__container .reg__grid .reg__grid__item a p {
+                font-size: 12px; } }
         .reg .reg__container .reg__grid .reg__grid__item:hover {
           background-color: white;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }

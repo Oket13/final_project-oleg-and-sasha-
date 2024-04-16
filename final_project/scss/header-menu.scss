@@ -11,6 +11,12 @@ $raleway-font:"Raleway", sans-serif;
     display: flex;
     justify-content: center;
     
+    @media (max-width:775px) {
+        display: none;
+    }
+    @media (max-width:576px) {
+        display: none;
+    }
     .header-menu__container {
         width: 1230px;
         @media (max-width:1440px) {
@@ -29,7 +35,6 @@ $raleway-font:"Raleway", sans-serif;
                 height: 110px;
             }
             @media (max-width:992px) {
-                
                 height: 100px;
             }
             .header-menu__flex__item {

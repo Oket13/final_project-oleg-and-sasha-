@@ -10,40 +10,35 @@ $quick-font: "Quicksand", sans-serif;
     background-color: #5f5af0;
     margin-bottom: 100px;
     align-items: center;
-     
+    @media (max-width:775px) {         
+        height: 600px;
+    }
+    @media (max-width:576px) {
+        height: 550px;
+    }
     .our-values__container {
         width: 1200px;
         display: flex;
         justify-content: center;  
         align-items: center;
         @media (max-width:1440px) {
-            font-size: 30px;
-            
-        }
-        @media (max-width:992px) {
-            font-size: 24px;
-            
-        }
-        @media (max-width:1440px) {
             width: 960px;
-            
         }
         @media (max-width:992px) {
             width: 720px;
-            
+        }
+        @media (max-width:775px) {         
+            width: 540px;
+        }
+        @media (max-width:576px) {
+            width: 400px;
         }
         .our-values__flex {
             display: flex;
             justify-content: center;
             align-items: center;
-            @media (max-width:1440px) {
-                width: 960px;
-                
-            }
-            @media (max-width:992px) {
-                width: 720px;
-                
-            }
+            
+            
             .our-values__flex__item {
                 padding: 35px;
                 display: flex;
@@ -53,8 +48,11 @@ $quick-font: "Quicksand", sans-serif;
                 @media (max-width:1440px) {
                     padding: 25px;
                 }
-                @media (max-width:992px) {
-                    padding: 10px;
+                @media (max-width:775px) {
+                    margin-bottom: 0;
+                }
+                @media (max-width:576px) {
+                    margin-bottom: 0;
                 }
                 .our-values__title{
                     h2{
@@ -67,12 +65,20 @@ $quick-font: "Quicksand", sans-serif;
                         font-weight: 600;
                         @media (max-width:1440px) {
                             font-size: 30px;
-                            
-                            
                         }
                         @media (max-width:992px) {
                             font-size: 24px;
+                        }
+                        @media (max-width:775px) {
+                            margin: 25px 0;
+                            font-size: 22px;
+                            text-align: center;
                             
+                        }
+                        @media (max-width:576px) {
+                            margin: 25px 0;
+                            font-size: 22px;
+                            text-align: center;
                         }
                     }
                 }
@@ -82,11 +88,17 @@ $quick-font: "Quicksand", sans-serif;
                     justify-content: space-between;
                     @media (max-width:1440px) {
                         width: 600px;
-                        
                     }
                     @media (max-width:992px) {
                         width: 450px;
-                        
+                    }
+                    @media (max-width:775px) {
+                        display: grid;
+                        width: 300px;
+                    }
+                    @media (max-width:576px) {
+                        display: grid;
+                        width: 150px;
                     }
                     .our-values__ten-vales {
                         display: flex;
@@ -94,7 +106,6 @@ $quick-font: "Quicksand", sans-serif;
                         justify-content: center;
                         .our-values__text{
                             display: flex;
-                            
                             svg{
                                 width: 45px;
                                 height: 45px;
@@ -102,12 +113,18 @@ $quick-font: "Quicksand", sans-serif;
                                 @media (max-width:1440px) {
                                     width: 40px;
                                     height: 40px;
-                                    
                                 }
                                 @media (max-width:992px) {
                                     width: 30px;
                                     height: 30px;
-                                    
+                                }
+                                @media (max-width:775px) {
+                                    width: 25px;
+                                    height: 25px;
+                                }
+                                @media (max-width:576px) {
+                                    width: 20px;
+                                    height: 20px;
                                 }
                             }
                             p{
@@ -118,11 +135,15 @@ $quick-font: "Quicksand", sans-serif;
                                 font-weight: 300;
                                 @media (max-width:1440px) {
                                     font-size: 26px;
-                                    
                                 }
                                 @media (max-width:992px) {
                                     font-size: 20px;
-                                    
+                                }
+                                @media (max-width:775px) {
+                                    font-size: 16px;
+                                }
+                                @media (max-width:576px) {
+                                    font-size: 12px;
                                 }
                             }
                         }
@@ -141,6 +162,16 @@ $quick-font: "Quicksand", sans-serif;
                             height: 285px;
                             width: 285px;
                             
+                        }
+                        @media (max-width:775px) {
+                            height: 245px;
+                            width: 245px;
+                            display: none;
+                        }
+                        @media (max-width:576px) {
+                            height: 195px;
+                            width: 195px;
+                            display: none;
                         }
                     }
                 }

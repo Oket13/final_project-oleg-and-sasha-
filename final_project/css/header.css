@@ -10,6 +10,12 @@ header {
   align-items: center;
   height: 44px;
   background-color: #4a1a7d; }
+  @media (max-width: 775px) {
+    header {
+      height: 77px; } }
+  @media (max-width: 576px) {
+    header {
+      height: 55px; } }
   header .header__container {
     width: 1200px; }
     @media (max-width: 1440px) {
@@ -18,10 +24,96 @@ header {
     @media (max-width: 992px) {
       header .header__container {
         width: 720px; } }
+    @media (max-width: 775px) {
+      header .header__container {
+        width: 540px; } }
+    @media (max-width: 576px) {
+      header .header__container {
+        width: 400px; } }
     header .header__container .header__flex {
       display: flex;
       justify-content: space-between;
       align-items: center; }
+      @media (max-width: 775px) {
+        header .header__container .header__flex {
+          justify-content: center; } }
+      @media (max-width: 576px) {
+        header .header__container .header__flex {
+          justify-content: center; } }
+      header .header__container .header__flex .hamburger-menu {
+        display: none; }
+        header .header__container .header__flex .hamburger-menu #menu__toggle {
+          opacity: 0; }
+        header .header__container .header__flex .hamburger-menu #menu__toggle:checked + .menu__btn > span {
+          transform: rotate(45deg); }
+        header .header__container .header__flex .hamburger-menu #menu__toggle:checked + .menu__btn > span::before {
+          top: 0;
+          transform: rotate(0deg); }
+        header .header__container .header__flex .hamburger-menu #menu__toggle:checked + .menu__btn > span::after {
+          top: 0;
+          transform: rotate(90deg); }
+        header .header__container .header__flex .hamburger-menu #menu__toggle:checked ~ .menu__box {
+          left: 0 !important; }
+        header .header__container .header__flex .hamburger-menu .menu__btn {
+          position: fixed;
+          top: 40px;
+          left: 10px;
+          width: 26px;
+          height: 26px;
+          cursor: pointer;
+          z-index: 1; }
+          @media (max-width: 576px) {
+            header .header__container .header__flex .hamburger-menu .menu__btn {
+              top: 27px; } }
+        header .header__container .header__flex .hamburger-menu .menu__btn > span,
+        header .header__container .header__flex .hamburger-menu .menu__btn > span::before,
+        header .header__container .header__flex .hamburger-menu .menu__btn > span::after {
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          background-color: white;
+          transition-duration: .25s; }
+        header .header__container .header__flex .hamburger-menu .menu__btn > span::before {
+          content: '';
+          top: -8px; }
+        header .header__container .header__flex .hamburger-menu .menu__btn > span::after {
+          content: '';
+          top: 8px; }
+        header .header__container .header__flex .hamburger-menu .menu__box {
+          display: block;
+          position: fixed;
+          top: 0;
+          left: -100%;
+          width: 200px;
+          height: 100%;
+          margin: 0;
+          padding: 80px 0;
+          list-style: none;
+          background-color: #4a1a7d;
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+          transition-duration: .25s;
+          border: solid 1px #222222; }
+        header .header__container .header__flex .hamburger-menu .menu__item {
+          display: block;
+          padding: 12px 24px;
+          color: #333;
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px;
+          font-weight: 600;
+          text-decoration: none;
+          transition-duration: .25s;
+          color: white; }
+        header .header__container .header__flex .hamburger-menu .menu__item:hover {
+          background-color: #CFD8DC; }
+        header .header__container .header__flex .hamburger-menu .header__logo {
+          padding-left: 13px; }
+        @media (max-width: 775px) {
+          header .header__container .header__flex .hamburger-menu {
+            display: block; } }
+        @media (max-width: 576px) {
+          header .header__container .header__flex .hamburger-menu {
+            display: block; } }
       header .header__container .header__flex .header__flex__item {
         display: flex;
         justify-content: center; }
@@ -30,10 +122,19 @@ header {
           justify-content: center;
           color: white;
           margin-right: 30px; }
+          @media (max-width: 775px) {
+            header .header__container .header__flex .header__flex__item .first__item {
+              margin-right: 30px; }
+              header .header__container .header__flex .header__flex__item .first__item:first-child {
+                margin-left: 30px; } }
+          @media (max-width: 576px) {
+            header .header__container .header__flex .header__flex__item .first__item {
+              margin-right: 10px; } }
           header .header__container .header__flex .header__flex__item .first__item a {
             display: flex;
             justify-content: center;
             text-decoration: none;
+            align-items: center;
             color: white;
             transition-duration: 0.5s; }
             header .header__container .header__flex .header__flex__item .first__item a p {
@@ -44,6 +145,14 @@ header {
               @media (max-width: 992px) {
                 header .header__container .header__flex .header__flex__item .first__item a p {
                   font-size: 11px; } }
+              @media (max-width: 775px) {
+                header .header__container .header__flex .header__flex__item .first__item a p {
+                  font-size: 9px;
+                  width: 70px; } }
+              @media (max-width: 576px) {
+                header .header__container .header__flex .header__flex__item .first__item a p {
+                  font-size: 5px;
+                  width: 40px; } }
             header .header__container .header__flex .header__flex__item .first__item a .icon-location, header .header__container .header__flex .header__flex__item .first__item a .icon-phone, header .header__container .header__flex .header__flex__item .first__item a .icon-mail {
               margin-right: 5px; }
               @media (max-width: 1440px) {
@@ -52,6 +161,13 @@ header {
               @media (max-width: 992px) {
                 header .header__container .header__flex .header__flex__item .first__item a .icon-location, header .header__container .header__flex .header__flex__item .first__item a .icon-phone, header .header__container .header__flex .header__flex__item .first__item a .icon-mail {
                   font-size: 11px; } }
+              @media (max-width: 775px) {
+                header .header__container .header__flex .header__flex__item .first__item a .icon-location, header .header__container .header__flex .header__flex__item .first__item a .icon-phone, header .header__container .header__flex .header__flex__item .first__item a .icon-mail {
+                  font-size: 9px; } }
+              @media (max-width: 576px) {
+                header .header__container .header__flex .header__flex__item .first__item a .icon-location, header .header__container .header__flex .header__flex__item .first__item a .icon-phone, header .header__container .header__flex .header__flex__item .first__item a .icon-mail {
+                  margin-right: 2px;
+                  font-size: 6px; } }
             header .header__container .header__flex .header__flex__item .first__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {
@@ -59,6 +175,12 @@ header {
         header .header__container .header__flex .header__flex__item .second__item {
           margin-right: 10px;
           color: white; }
+          @media (max-width: 576px) {
+            header .header__container .header__flex .header__flex__item .second__item {
+              margin-right: 4px;
+              display: flex;
+              justify-content: center;
+              align-items: center; } }
           header .header__container .header__flex .header__flex__item .second__item a {
             text-decoration: none;
             color: white; }
@@ -69,6 +191,15 @@ header {
               @media (max-width: 992px) {
                 header .header__container .header__flex .header__flex__item .second__item a .icon-facebook-squared, header .header__container .header__flex .header__flex__item .second__item a .icon-instagram, header .header__container .header__flex .header__flex__item .second__item a .icon-youtube-play {
                   font-size: 20px; } }
+              @media (max-width: 775px) {
+                header .header__container .header__flex .header__flex__item .second__item a .icon-facebook-squared, header .header__container .header__flex .header__flex__item .second__item a .icon-instagram, header .header__container .header__flex .header__flex__item .second__item a .icon-youtube-play {
+                  font-size: 15px; } }
+              @media (max-width: 576px) {
+                header .header__container .header__flex .header__flex__item .second__item a .icon-facebook-squared, header .header__container .header__flex .header__flex__item .second__item a .icon-instagram, header .header__container .header__flex .header__flex__item .second__item a .icon-youtube-play {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 8px; } }
             header .header__container .header__flex .header__flex__item .second__item a:hover {
               color: yellow; }
         header .header__container .header__flex .header__flex__item:last-child {

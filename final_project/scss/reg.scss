@@ -13,22 +13,27 @@ $Kurale-font: "Kurale", serif;
     height: 440px;
     background-color: #bae7ff;
     @media (max-width:1440px) {
-        
         height: 400px;
     }
     @media (max-width:992px) {
-        
         height: 350px;
+    }
+    @media (max-width:775px) {
+        height: 250px;
     }
     .reg__container {
         width: 1230px;
         @media (max-width:1440px) {
             width: 960px;
-            
         }
         @media (max-width:992px) {
             width: 720px;
-            
+        }
+        @media (max-width:775px) {
+            width: 570px;
+        }
+        @media (max-width:576px) {
+            width: 400px;
         }
         .reg__grid {
             display: flex;
@@ -48,6 +53,14 @@ $Kurale-font: "Kurale", serif;
                     width: 150px;
                     height: 200px;
                 }
+                @media (max-width:775px) {
+                    width: 125px;
+                    height: 175px;
+                }
+                @media (max-width:576px) {
+                    width: 75px;
+                    height: 150px;
+                }
                 .reg__foto__yellow,.reg__foto__purple, .reg__foto__green,.reg__foto__blue{
                     cursor: pointer;
                     margin: 0 auto;
@@ -64,12 +77,20 @@ $Kurale-font: "Kurale", serif;
                     @media (max-width:1440px) {
                         width: 110px;
                         height: 110px;
-                        
                     }
                     @media (max-width:992px) {
                         width: 100px;
                         height: 100px;
-                        
+                    }
+                    @media (max-width:775px) {
+                        width: 75px;
+                        height: 75px;
+                                                
+                    }
+                    @media (max-width:576px) {
+                        width: 60px;
+                        height: 60px;
+                        padding: 20px;
                     }
                     a{
                         text-decoration: none;
@@ -80,12 +101,18 @@ $Kurale-font: "Kurale", serif;
                             @media (max-width:1440px) {
                                 width: 50px;
                                 height: 50px;
-                                
                             }
                             @media (max-width:992px) {
                                 width: 45px;
                                 height: 45px;
-                                
+                            }
+                            @media (max-width:775px) {
+                                width: 40px;
+                                height: 40px;
+                            }
+                            @media (max-width:576px) {
+                                width: 30px;
+                                height: 30px;
                             }
                         }
                     }
@@ -111,12 +138,19 @@ $Kurale-font: "Kurale", serif;
                         font-family: $Kurale-font; 
                         margin-bottom: 25px;
                         @media (max-width:1440px) {
-                            font-size: 20px;
-                            
+                            font-size: 20px; 
                         }
                         @media (max-width:992px) {
                             font-size: 16px;
-                            
+                            margin-bottom: 20px;
+                        }
+                        @media (max-width:775px) {
+                            font-size: 14px;
+                            margin-bottom: 0px;
+                            height: 60px;
+                        }
+                        @media (max-width:576px) {
+                            font-size: 12px;
                         }
                     }
                 }
