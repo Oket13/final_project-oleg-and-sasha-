@@ -5,12 +5,18 @@
         text-align: center;
         font-size: 36px;
         margin-bottom: 20px;
+        @media (max-width:576px) {
+            font-size: 20px;
+        }
     }
 
     .reviews__section-line {
         width: 120px;
         border-bottom: 2px solid purple;
         margin: 0 auto;
+        @media (max-width:576px) {
+            width: 80px;
+        }
     }
 
     .reviews__section-container {
@@ -20,9 +26,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
         @media (max-width:1440px) {
-            
             width: 960px;
         }
 
@@ -30,16 +34,17 @@
             width: 720px;
             display: flex;
             flex-direction: column;
-
             height: 1200px;
         }
 
         @media (max-width:775px) {
             width: 570px;
+            height: 1000px;
         }
 
         @media (max-width:576px) {
-            width: 400px;
+            width: 250px;
+            height: 700px;
         }
 
         .reviews__section-qoute {
@@ -48,13 +53,30 @@
             padding: 20px;
             width: 431px;
             height: 628px;
-
+            @media (max-width:576px) {
+                width: 270px;
+                height: 340px;
+                margin-bottom: 40px;
+            }
             .reviews__section-qoute-name {
                 font-weight: bold;
+                @media (max-width:576px) {
+                    font-size: 14px;
+                }
             }
 
             .reviews__section-qoute-short-info {
                 font-style: italic;
+                @media (max-width:576px) {
+                    font-size: 11px;
+                    margin-bottom: 5px;
+                }
+            }
+            .reviews__section-qoute-info {
+                font-style: italic;
+                @media (max-width:576px) {
+                    font-size: 9px;
+                }
             }
         }
 
@@ -64,24 +86,32 @@
             height: 442px;
             display: grid;
             grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-
-            @media (max-width:1440px) {}
-
             @media (max-width:992px) {
                 margin-left: 0;
             }
-
-            @media (max-width:775px) {}
-
-            @media (max-width:576px) {}
+            @media (max-width:576px) {
+                width: 240px;
+                height: 310px;
+            }
 
             .reviews__section-photo {
+                
+                @media (max-width:576px) {
+                    width: 70px;
+                    height: 70px;
+                    
+                }
                 img {
                     width: 110px;
                     height: 110px;
                     margin: 20px;
                     border-radius: 10px;
                     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    @media (max-width:576px) {
+                        width: 70px;
+                        height: 70px;
+                        margin: 5px;
+                    }
                 }
             }
         }
